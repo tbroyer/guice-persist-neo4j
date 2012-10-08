@@ -33,6 +33,33 @@ Transactions work the same as with Guice Persist for JPA: annotate a method with
 
 Finally, Neo4j does not have the concept of sessions, so `UnitOfWork` is a no-op.
 
+Maven dependency
+----------------
+
+```xml
+<dependency>
+  <groupId>net.ltgt.guice</groupId>
+  <artifactId>guice-persist-neo4j</artifactId>
+  <version>${guice-persist-neo4j.version}</version>
+</dependency>
+```
+
+Snapshots are regularly (but manually) published to Sonatype OSS, so make sure you have the following repository configured in your POM or `settings.xml`, or proxied in your internal repository manager (note: the following snippet is borrowed from `org.sonatype.oss:oss-parent:pom:7`):
+
+```xml
+<repository>
+  <id>sonatype-nexus-snapshots</id>
+  <name>Sonatype Nexus Snapshots</name>
+  <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+  <releases>
+    <enabled>false</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
+```
+
 Licensing
 ---------
 
