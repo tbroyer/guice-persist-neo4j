@@ -21,7 +21,7 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
 /**
- * A binding annotation for internal JPA module properties.
+ * A binding annotation for internal Neo4j module properties.
  */
 @Retention(RetentionPolicy.RUNTIME)
 @BindingAnnotation
