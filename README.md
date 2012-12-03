@@ -1,7 +1,7 @@
 Using Neo4j with Guice Persist
 ==============================
 
-[![Build Status](https://buildhive.cloudbees.com/job/tbroyer/job/guice-persist-neo4j/badge/icon)](https://buildhive.cloudbees.com/job/tbroyer/job/guice-persist-neo4j/)
+[![Build Status](https://travis-ci.org/tbroyer/guice-persist-neo4j.png?branch=master)](https://travis-ci.org/tbroyer/guice-persist-neo4j)
 
 _DISCLAIMER: this documentation heavily borrows from [Using JPA with Guice Persist](http://code.google.com/p/google-guice/wiki/JPA)._
 
