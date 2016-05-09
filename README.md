@@ -1,3 +1,6 @@
+_THIS PROJECT IS DEPRECATED!_
+=============================
+
 Using Neo4j with Guice Persist
 ==============================
 
